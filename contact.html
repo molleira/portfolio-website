@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marc Oller - Contact</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  </head>
+
+  <body>
+
+    <header>
+
+      <img src="img/logo.jpeg" alt="" class="image">
+
+      <nav>
+        <ul role="menubar">
+          <li role="presentation">
+            <a href="index.html" role="menuitem">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem">About</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem">Work</a>
+         </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="nav__li--active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="contact">
+
+      <div class="address">
+        <div>
+          Marc Oller<br>
+          Weidenweg 25 <br>
+          10249 Berlin<br>
+          Deutschland<br>
+        </div>
+
+        <div>
+          Tel <a href="tel:+4915751227092">+49 15751227092</a><br>
+          Skype <a href="skype:hello.careerfoundry"> hello.marcoller</a><br>
+          <a href="mailto:marc-om@icloud.com">marc.om@icloud.com</a>
+        </div>
+
+      </div>
+
+      <div>
+
+        <form action="#" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" placeholder="johndoe@e-mail.com" required>
+
+          <label class="standard-label" for="phone-number">Telephone: </label>
+          <input type="tel" id="phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="333-333-4444">
+
+          <label class="standard-label" for="message">Message: </label>
+          <textarea id="message" maxlength="240" placeholder="My message" required></textarea>
+          <input type="submit" value="Send message" class="button">
+        </form>
+
+      </div>
+
+    </div>
+
+    <footer>
+
+      <div>
+        <a href="https://github.com/molleira">
+          <img src="img/github.svg" alt="Github" class="icon">
+        </a>
+        <a class="social" href="https://twitter.com/molleira">
+          <img src="img/twitter.svg" alt="Twitter" class="icon">
+        </a>
+        <a class="social" href="https://www.linkedin.com/in/molleira/">
+          <img src="img/linkedin.svg" alt="LinkedIn" class="icon">
+        </a>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
