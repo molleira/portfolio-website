@@ -91,7 +91,7 @@ header {
   top: 0;
   width: 100%;
   background: white;
-  border-bottom: 1px solid #357b70;
+  /* border-bottom: 1px solid #357b70; */
 }
 
 nav li {
