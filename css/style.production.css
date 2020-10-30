@@ -87,6 +87,11 @@ header {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #357b70;
 }
 
 nav li {
@@ -108,6 +113,7 @@ nav li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 110px auto 0 auto;
 }
 
 .portrait {
@@ -150,7 +156,7 @@ footer a {
       -ms-flex-align: center;
           align-items: center;
   width: 50%;
-  margin: 0 auto;
+  margin: 110px auto 0 auto;
 }
 
 .berlin {
@@ -160,7 +166,7 @@ footer a {
 
 .work {
   width: 80%;
-  margin: 0 auto;
+  margin: 110px auto 0 auto;
 }
 
 /* grid fallback */
@@ -202,7 +208,7 @@ footer a {
 
 .contact {
   width: 50%;
-  margin: 0 auto;
+  margin: 110px auto 0 auto;
 }
 
 .address {
@@ -266,6 +272,10 @@ footer a {
 
   .address div {
     margin: 15px 0;
+  }
+
+  .profile, .about, .work, .contact {
+    margin-top: 150px;
   }
 }
 
