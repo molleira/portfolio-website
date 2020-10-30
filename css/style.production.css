@@ -92,6 +92,7 @@ header {
   width: 100%;
   background: white;
   /* border-bottom: 1px solid #357b70; */
+  box-shadow: 0 2px 5px 0 rgba(51,51,51,.1);
 }
 
 nav li {
