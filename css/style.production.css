@@ -244,13 +244,38 @@ footer a {
 }
 
 @media all and (max-width: 600px) {
-  header, .profile {
+  .profile {
     display: block;
     text-align: center;
   }
 
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu li a {
+    display: block;
+  }
+
+  .toggle {
+    font-size: 20px;
+  }
+
+  .item {
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+
+  .active .item {
+    display: block;
+  }
+
   ul {
-    margin-top: 0;
+    margin: 0;
   }
 
   nav ul {

@@ -7,6 +7,7 @@
     <title>Marc Oller</title>
     <link rel="icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
   </head>
@@ -15,20 +16,24 @@
 
     <header class="header" id="myHeader">
 
-      <img src="img/logo.jpg" alt="" class="image">
-
       <nav>
-        <ul role="menubar">
-          <li role="presentation">
+        <ul role="menubar" class="menu">
+          <li>
+            <img src="img/logo.jpg" alt="" class="image">
+          </li>
+          <li class="toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </li>
+          <li role="presentation" class="item">
             <a href="index.html" role="menuitem" class="nav__li--active">Home</a>
           </li>
-          <li role="presentation">
+          <li role="presentation" class="item">
             <a href="about.html" role="menuitem">About</a>
           </li>
-          <li role="presentation">
+          <li role="presentation" class="item">
             <a href="work.html" role="menuitem">Work</a>
          </li>
-          <li role="presentation">
+          <li role="presentation" class="item">
             <a href="contact.html" role="menuitem">Contact</a>
           </li>
         </ul>
