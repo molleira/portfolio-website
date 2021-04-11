@@ -13,9 +13,9 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #357b70;
-  --clr-dark: #489c79;
-  --clr-accent: #05676e;
+  --clr-light: #0a293d;
+  --clr-dark: #adb7c1;
+  --clr-accent: #fff;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -46,6 +46,12 @@ body {
 
 section {
   padding: 5em 2em;
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 2.5em 1em;
+  }
 }
 
 img {
@@ -342,10 +348,10 @@ header {
   position: relative;
 }
 
-.intro__img {
-  /* box-shadow: var(--bs); */
-  /* min-width: 350px; */
-}
+/* .intro__img {
+  box-shadow: var(--bs);
+  min-width: 350px;
+} */
 
 .section__subtitle--intro {
   display: inline-block;
@@ -488,7 +494,7 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 }
 
 .portfolio__item {
@@ -521,7 +527,7 @@ header {
   background: #111;
   color: var(--clr-accent);
   text-align: center;
-  padding: 2.5em 0;
+  padding: 2em 0;
   font-size: var(--fs-h3);
 
 }
