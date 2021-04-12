@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico">
+
+  <!-- title -->
+  <title>Marc Oller - Full-Stack Web Developer</title>
+
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <!-- google fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.production.css"> -->
+
+</head>
+
+<body>
+
+  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+  <a href="index.html#work" id="return-to-home"><i class="fa fa-chevron-left"></i></a>
+
+  <header>
+
+    <!-- <div class="logo">
+      <img src="img/logo.jpg" alt="">
+    </div> -->
+
+    <button class="nav-toggle" arial-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#work" class="nav__link">Work</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#about" class="nav__link">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      React Native <strong>Chat App</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Made for mobile</p>
+    <img src="img/chat-app.jpg" alt="" class="intro__img">
+  </section>
+
+  <div class="portfolio-item-individual">
+    <h3>.Overview</h3>
+    <p>Chat App is a native chat app for mobile devices using React Native. The app provides users with a chat interface
+      and options to share images and their location.
+    </p>
+    <img src="img/chat-app-detail_a.jpg" alt="">
+    </br>
+    <h3>.Purpose & Context</h3>
+    <p>More and more people use their phones for daily tasks, such as shopping, creating to-do lists, communicating
+      with friends, scheduling meetings, and more. That's why many companies offer native mobile versions of their web
+      apps, or even skip creating a web app entirely.
+    </p>
+    <p>In the past, building high-quality mobile apps required a lot of time and money because writing apps for
+      different platforms like iOS and Android required specialized programmers who could build and maintain multiple
+      codebases.
+    </p>
+    <p>Over time, however, new technologies emerged that made it easier for companies to build and maintain mobile
+      applications using familiar syntax. One of these technologies is React Native, a framework for building Android
+      and iOS apps that only requires one codebase.
+    </p>
+    </br>
+
+    <h3>.Objective</h3>
+    <p>Use React Native, Expo, and Google Firestore Database to build a chat app for my portfolio and demonstrate my
+      knowledge of JavaScript mobile development.
+    </p>
+
+    <img src="img/chat-app-detail_b.jpg" alt="">
+    </br>
+
+    <h3>.Approach</h3>
+    <p>I used the project brief to understand how to approach developing the app. User stories, key features and
+      technical requirements were defined in the brief and I was also presented with some screen design and assets
+      specifications.
+    </p>
+    <p>I started setting up the development environment to work with React Native and Expo. Then, I created the app’s
+      layout using native UI components and coded the style of the start screen based on the screen designs received in
+      the brief.
+    </p>
+    <p>With the basic layout done, I build the chat screen and the chat functionality using the Gifted Chat library.
+      This is the most important screen and is where all messages are displayed.
+    </p>
+    <p>Then, it was time to start implementing data storage. To do this, I added authentication for users anonymously
+      with Firebase. Finally, store conversations in the Firestore Database.
+    </p>
+    <p>Next, I implemented storing data on the client-side. This means storing chats locally using asyncStorage, so
+      they’re available offline. To do this, I had to authenticate users and store chat messages in Firestore as well,
+      and also on the device (when users are online). Finally, implemented the code to retrieve locally stored messages
+      and disallow the creation of new messages when users are offline.
+    </p>
+    <p>In the last step I implemented the functionality that let users pick an image from the device’s library and take
+      pictures with the device’s camera app. It was also needed to store images in Google Firebase Cloud Storage and
+      send images via Gifted Chat. Also, let users send their current location in a map view via Gifted Chat. Finally,
+      apply accessibility considerations to app design and development
+    </p>
+
+    <img src="img/chat-app-detail_b.jpg" alt="">
+    </br>
+
+    <h3>.Challenges</h3>
+    <p>The most challenging part for me was learning a lot of new tools that I didn’t know before. Setting React Native
+      was pretty straightforward but the syntax is a bit different than React. Expo and Google Firestore were also new
+      to me, so I needed a good amount of time to read through React Native’s documentation and to go through each
+      feature available.
+    </p>
+    <p>The hardest part for me was testing the app properly. I think the Android Emulator could be improved because the
+      response is slow and it is unable to reproduce some important features, like locating the device. The experience
+      with Expo on my own phone was much better and the communication was very fast. I think the snippets with code from
+      the Expo website can be helpful, but sometimes they lack the context needed to develop your specific app. I would
+      advise other developers to use them with care.
+    </p>
+    <p>My main takeaway is that developing a native app nowadays is much simpler with React Native. This technology
+      together with Expo and Gifted Chat is impressive, the whole app is light, simple to build and doesn’t need a lot
+      of code. If I were to start again from the beginning, I would allocate more time to read all the documentation
+      properly, because it is very helpful, it allows you to understand every single possible feature and it will make
+      the coding sessions faster.
+    </p>
+    </br>
+
+    <!-- about -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Summary</h2>
+      <p class="section__subtitle section__subtitle--about">Chat App</p>
+
+      <div class="about-me__body">
+        <p>React Native, Expo, and Google Firestore Database are technologies that allow building a mobile app with
+          JavaScript very effectively. This combo is very powerful and the technologies work very well together. I could
+          implement advanced specifications very effectively.
+        </p>
+        <p>Testing may be an issue for some developers depending on their devices and the setup of emulators is perhaps
+          the
+          most “boring” part, but once everything is set up the whole experience is pretty good.
+        </p>
+        <p>I’m looking forward to seeing how React Native and other libraries evolve in the future because it looks very
+          promising. I believe that building native apps will get simpler in the future which would be very good news.
+        </p>
+      </div>
+
+      <img src="img/chat-app.gif" alt="Gif of the Chat App" class="about-me__img">
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <a href="mailto:marc.om@icloud.com" class="footer__link">marc.om@icloud.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/molleira">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/molleira">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/molleira/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+
+
+</html>

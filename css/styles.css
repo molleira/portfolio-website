@@ -71,31 +71,9 @@ strong {
 
 /* buttons */
 
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: var(--clr-light); /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-
-/* aixo de dalt potser no es fa servir */
-
 #return-to-top {
   position: fixed;
-  bottom: 20px;
+  top: 50px;
   right: 20px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
@@ -136,7 +114,7 @@ strong {
 
 #return-to-home {
   position: fixed;
-  top: 20px;
+  top: 50px;
   left: 20px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.7);
@@ -178,8 +156,8 @@ strong {
 .btn {
   display: inline-block;
   padding: .5em 2.5em;
-  background: var(--clr-accent);
-  color: var(--clr-dark);
+  background: var(--clr-light);
+  color: var(--clr-accent);
   text-decoration: none;
   cursor: pointer;
   font-size: .8rem;
@@ -486,6 +464,10 @@ header {
 
 /* My Work */
 
+.section__title--work {
+  padding-bottom: 1.5em;
+}
+
 .my-work {
   background-color: var(--clr-dark);
   color: var(--clr-light);
@@ -575,8 +557,9 @@ header {
   margin: 0 auto;
 }
 
+.portfolio-item-individual h3,
 .portfolio-item-individual p {
-  max-width: 600px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
