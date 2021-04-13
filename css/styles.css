@@ -564,6 +564,14 @@ header {
   margin-right: auto;
 }
 
+.portfolio-btn {
+  text-align: center;
+}
+
+.portfolio-btn__item {
+  margin: 0 2em 5em 2em;
+}
+
 /* animation */
 
 @keyframes color-change {
