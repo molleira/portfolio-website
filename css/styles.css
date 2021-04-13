@@ -564,6 +564,17 @@ header {
   margin-right: auto;
 }
 
+.portfolio-btn {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.portfolio-btn a.btn {
+  margin: 0 2em 5em 2em;
+}
+
 /* animation */
 
 @keyframes color-change {
