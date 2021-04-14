@@ -565,13 +565,10 @@ header {
 }
 
 .portfolio-btn {
-  display: flex;
-  justify-content: center;
-  max-width: 900px;
-  margin: auto;
+  text-align: center;
 }
 
-.portfolio-btn a.btn {
+.portfolio-btn__item {
   margin: 0 2em 5em 2em;
 }
 
