@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico">
+
+  <!-- title -->
+  <title>Marc Oller - Full-Stack Web Developer</title>
+
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+  <!-- google fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.production.css"> -->
+
+</head>
+
+<body>
+
+  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+  <a href="index.html#work" id="return-to-home"><i class="fa fa-chevron-left"></i></a>
+
+  <header>
+
+    <!-- <div class="logo">
+      <img src="img/logo.jpg" alt="">
+    </div> -->
+
+    <button class="nav-toggle" arial-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#work" class="nav__link">Work</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#about" class="nav__link">About</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="intro">
+    <h1 class="section__title section__title--intro">
+      Client-side <strong>myFlix App</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Made with React</p>
+    <img src="img/myFlix-client_a.jpg" alt="" class="intro__img">
+  </section>
+
+  <div class="portfolio-btn">
+    <a href="https://github.com/molleira/myFlix-client" class="btn portfolio-btn__item" target="_blank">GitHub
+      Project</a>
+    <a href="https://theflix.netlify.app/" class="btn portfolio-btn__item" target="_blank">Live Preview</a>
+  </div>
+
+
+  <div class="portfolio-item-individual">
+    <h3>.Overview</h3>
+    <p>This project is a React application that allows users to get information about movies, genres, and directors.
+      Users can also save movies in their list of favorites and edit details of their profile. This application uses an
+      existing server-side REST API and MongoDB database.
+    </p>
+    <img src="img/myFlix-client-detail_a.jpg" alt="">
+    </br>
+    <h3>.Purpose & Context</h3>
+    <p>Client-side development hasn’t always been so prominent. In the past, pages would be generated on the server-side
+      and sent to the browser, resulting in a poor user experience. Thanks to modern browsers and libraries such as
+      React, the client-side of an application is today considered to be just as important as the server-side. As a
+      student of full-stack development, you need to be skilled in both the server-side and client-side.
+    </p>
+    <p>In the previous Achievement, you built the server-side for a movie application called myFlix. The API and
+      database that you built meet the information needs of myFlix users. Now, you need to create the interface they
+      will use when making requests to, and receiving responses from, the server-side. The client-side of your myFlix
+      application will include several interface views built using the React library that will handle data through the
+      previously-defined REST API endpoints.
+    </p>
+    <p>The code you write impacts both your users and your fellow developers. As you work through this Achievement,
+      you’ll need to consider, among other things, the readability and maintenance of your codebase, and the design and
+      usability of your application.
+    </p>
+    <p>By the end of the Achievement, you’ll have a complete web application (client-side and server-side) built using
+      full-stack JavaScript technologies, which you can showcase in your portfolio. This project will demonstrate your
+      mastery of full-stack JavaScript development. The complete tech stack you’ll master is known as the MERN (MongoDB,
+      Express, React, and Node.js) stack.
+    </p>
+    </br>
+
+    <h3>.Objective</h3>
+    <p>Using React, build the client-side for an application called myFlix based on its existing server-side code (REST
+      API and database).
+    </p>
+
+    <img src="img/myFlix-client-detail_b.jpg" alt="">
+    </br>
+
+    <!-- <h3>.Approach</h3>
+    <p>I used the project brief to understand how to approach developing the app. User stories, key features and
+      technical requirements were defined in the brief and I was also presented with some screen design and assets
+      specifications.
+    </p>
+    <p>I started setting up the development environment to work with React Native and Expo. Then, I created the app’s
+      layout using native UI components and coded the style of the start screen based on the screen designs received in
+      the brief.
+    </p>
+    <p>With the basic layout done, I build the chat screen and the chat functionality using the Gifted Chat library.
+      This is the most important screen and is where all messages are displayed.
+    </p>
+    <p>Then, it was time to start implementing data storage. To do this, I added authentication for users anonymously
+      with Firebase. Finally, store conversations in the Firestore Database.
+    </p>
+    <p>Next, I implemented storing data on the client-side. This means storing chats locally using asyncStorage, so
+      they’re available offline. To do this, I had to authenticate users and store chat messages in Firestore as well,
+      and also on the device (when users are online). Finally, implemented the code to retrieve locally stored messages
+      and disallow the creation of new messages when users are offline.
+    </p>
+    <p>In the last step I implemented the functionality that let users pick an image from the device’s library and take
+      pictures with the device’s camera app. It was also needed to store images in Google Firebase Cloud Storage and
+      send images via Gifted Chat. Also, let users send their current location in a map view via Gifted Chat. Finally,
+      apply accessibility considerations to app design and development
+    </p>
+
+    <img src="img/chat-app-detail_b.jpg" alt="">
+    </br> -->
+
+    <h3>.Challenges</h3>
+    <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas
+      sapiente voluptate, magnam ipsum eius earum?
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti
+      fugiat ducimus consequatur incidunt?
+    </p>
+    <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas
+      sapiente voluptate, magnam ipsum eius earum?
+    </p>
+    </br>
+
+    <!-- about -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Summary</h2>
+      <p class="section__subtitle section__subtitle--about">myFlix React</p>
+
+      <div class="about-me__body">
+        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas
+          sapiente voluptate, magnam ipsum eius earum?
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti
+          fugiat ducimus consequatur incidunt?
+        </p>
+        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas
+          sapiente voluptate, magnam ipsum eius earum?
+        </p>
+      </div>
+
+      <img src="img/myFlix-client_b.jpg" alt="Gif of the Chat App" class="about-me__img">
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <a href="mailto:marc.om@icloud.com" class="footer__link">marc.om@icloud.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/molleira">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/molleira">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/molleira/">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script src="js/scripts.js"></script>
+
+
+</html>
