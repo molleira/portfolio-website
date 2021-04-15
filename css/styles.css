@@ -465,10 +465,11 @@ header {
 /* My Work */
 
 .section__title--work {
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
 }
 
 .my-work {
+  padding: 3em 2em;
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;    
@@ -501,6 +502,10 @@ header {
 .portfolio__item:focus .portfolio__img {
   transform: scale(1.1);
   opacity: .5;
+}
+
+.portfolio__summary {
+  padding: 0em 2em 2em 2em;
 }
 
 /* footer */
