@@ -15,10 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
   <!-- google fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
     rel="stylesheet">
-
 
   <!-- font awesome icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
@@ -26,29 +24,19 @@
 
   <!-- styles -->
   <link rel="stylesheet" href="css/styles.css">
-
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="css/style.production.css"> -->
-
 </head>
 
 <body>
-
-  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button> -->
-  <a href="#home" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- back to top-->
+  <a href="#home" id="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <header>
-
-    <!-- <div class="logo">
-      <img src="img/logo.jpg" alt="">
-    </div> -->
-
+    <!-- hamburguer icon-->
     <button class="nav-toggle" arial-label="toggle navigation">
       <span class="hamburger"></span>
     </button>
 
+    <!-- nav -->
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
@@ -65,57 +53,18 @@
         </li>
       </ul>
     </nav>
-
   </header>
 
-  <!-- <header class="header" id="myHeader">
-
-    <nav>
-      <ul role="menubar" class="menu">
-        <li>
-          <img src="img/logo.jpg" alt="" class="image">
-        </li>
-        <li class="toggle">
-          <a href="#"><i class="fas fa-bars"></i></a>
-        </li>
-        <li role="presentation" class="item">
-          <a href="index.html" role="menuitem" class="nav__li--active">Home</a>
-        </li>
-        <li role="presentation" class="item">
-          <a href="about.html" role="menuitem">About</a>
-        </li>
-        <li role="presentation" class="item">
-          <a href="work.html" role="menuitem">Work</a>
-        </li>
-        <li role="presentation" class="item">
-          <a href="contact.html" role="menuitem">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-  </header> -->
-
   <!-- introduction -->
-  <!-- <section class="intro" id="home"> -->
-
-  <!-- <h1 class="section__title section__title--intro">
-      Hello World!
-    </h1> -->
-  <!-- <p class="section__subtitle section__subtitle--intro">
-      I am <strong>Marc Oller</strong>
-      <br>
-      I am a <span>web</span> developer based in Berlin.
-    </p>
-    <img src="img/portrait.jpg" alt="a picture of Marc Oller" class="intro__img">
-
-  </section> -->
-
   <section class="intro" id="home">
+
+    <!-- intro title -->
     <h1 class="section__title section__title--intro">
       Hi, I am <strong>Marc Oller</strong>
     </h1>
     <p class="section__subtitle section__subtitle--intro">full-stack web dev</p>
-    <!-- <img src="img/portrait.jpg" alt="a picture of Marc Oller smiling" class="intro__img"> -->
+
+    <!-- intro animation -->
     <svg xmlns="http://www.w3.org/2000/svg" class="intro__img" viewBox="0 0 700 505"
       xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
@@ -1084,35 +1033,17 @@
 
   <!-- work -->
   <section class="my-work" id="work">
+
+    <!-- work title -->
     <h2 class="section__title section__title--work">
       Work
     </h2>
-    <!-- <p class="section__subtitle section__subtitle-work"></p> -->
 
+    <!-- portfolio -->
     <div class="portfolio">
+
       <!-- portfolio item 01 -->
-      <!-- <div>
-        <div>
-          <h3>myFlix Angular Client</h3>
-          <p>This project is an Angular application that allows users to get information about movies, genres, and
-            directors.
-            Users can also save movies in their list of favorites and edit details of their profile. This application
-            uses
-            an
-            existing server-side REST API and MongoDB database.</p>
-
-          <a href="https://github.com/molleira/myFlix-Angular-client" class="btn portfolio-btn__item"
-            target="_blank">GitHub
-            Project</a>
-          <a href="https://molleira.github.io/myFlix-Angular-client/welcome" class="btn portfolio-btn__item"
-            target="_blank">Live Preview</a>
-        </div>
-        <a href="myFlix-angular.html" class="portfolio__item">
-          <img src="img/myFlix-angular_a.jpg" alt="" class="portfolio__img">
-        </a>
-      </div> -->
-
-      <div class="about-me piece" id="about">
+      <div class="about-me piece">
         <h3 class="section__title section__title--about">myFlix Angular Client</h3>
         <!-- <p class="section__subtitle section__subtitle--about">Made with Angular</p> -->
 
@@ -1141,7 +1072,7 @@
         <img src="img/chat-app.jpg" alt="" class="portfolio__img">
       </a> -->
 
-      <div class="about-me piece" id="about">
+      <div class="about-me piece">
         <h3 class="section__title section__title--about">Chat App</h3>
         <!-- <p class="section__subtitle section__subtitle--about">Made with Angular</p> -->
 
@@ -1167,7 +1098,7 @@
         <img src="img/meet-app_a.jpg" alt="" class="portfolio__img">
       </a> -->
 
-      <div class="about-me piece" id="about">
+      <div class="about-me piece">
         <h3 class="section__title section__title--about">Meet App</h3>
         <!-- <p class="section__subtitle section__subtitle--about">Made with Angular</p> -->
 
@@ -1194,7 +1125,7 @@
         <img src="img/myFlix-client_a.jpg" alt="" class="portfolio__img">
       </a> -->
 
-      <div class="about-me piece" id="about">
+      <div class="about-me piece">
         <h3 class="section__title section__title--about">myFlix React Client</h3>
         <!-- <p class="section__subtitle section__subtitle--about">Made with Angular</p> -->
 
@@ -1223,7 +1154,7 @@
         <img src="img/movie-api_a.jpg" alt="" class="portfolio__img">
       </a> -->
 
-      <div class="about-me piece" id="about">
+      <div class="about-me piece">
         <h3 class="section__title section__title--about">Movie API</h3>
         <!-- <p class="section__subtitle section__subtitle--about">Made with Angular</p> -->
 
@@ -1248,7 +1179,7 @@
         <img src="img/pokedex_a.jpg" alt="" class="portfolio__img">
       </a> -->
 
-      <div class="about-me" id="about">
+      <div class="about-me">
         <h3 class="section__title section__title--about">Pokédex</h3>
         <!-- <p class="section__subtitle section__subtitle--about">Made with Angular</p> -->
 

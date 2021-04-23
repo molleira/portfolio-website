@@ -71,7 +71,7 @@ strong {
 
 /* buttons */
 
-#return-to-top {
+#back-to-top {
   position: fixed;
   top: 50px;
   right: 20px;
@@ -92,7 +92,7 @@ strong {
   transition: all 0.3s ease;
   z-index: 4;
 }
-#return-to-top i {
+#back-to-top i {
   color: #fff;
   margin: 0;
   position: relative;
@@ -105,10 +105,10 @@ strong {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-#return-to-top:hover {
+#back-to-top:hover {
   background: rgba(0, 0, 0, 0.9);
 }
-#return-to-top:hover i {
+#back-to-top:hover i {
   color: #fff;
   top: 3px;
 }
