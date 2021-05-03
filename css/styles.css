@@ -362,7 +362,8 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 } */
 
-.about-me {
+.about-me,
+.me-about {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -372,7 +373,7 @@ header {
 }
 
 .piece {
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 
 .round {
@@ -382,13 +383,23 @@ header {
 @media (min-width: 600px) {
   .about-me {
       display: grid;
-      grid-template-columns: 1fr 200px;
+      grid-template-columns: 1fr 300px;
       grid-template-areas: 
           "title img"
           "subtitle img"
           "text img";
       grid-column-gap: 2em;
   }
+
+  .me-about {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: 
+        "img title"
+        "img subtitle"
+        "img text";
+    grid-column-gap: 2em;
+}
   
   .section__title--about {
       grid-area: title;
