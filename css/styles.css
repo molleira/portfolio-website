@@ -391,6 +391,10 @@ header {
       grid-column-gap: 2em;
   }
 
+  .item_description {
+    text-align: justify;
+  }
+
   .me-about {
     display: grid;
     grid-template-columns: 300px 1fr;
