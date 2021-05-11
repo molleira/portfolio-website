@@ -373,7 +373,7 @@ header {
 }
 
 .piece {
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 
 .round {
@@ -383,12 +383,12 @@ header {
 @media (min-width: 600px) {
   .about-me {
       display: grid;
-      grid-template-columns: 1fr 300px;
+      grid-template-columns: 1fr .7fr;
       grid-template-areas: 
           "title img"
           "subtitle img"
           "text img";
-      grid-column-gap: 2em;
+      grid-column-gap: 5em;
   }
 
   .item_description {
@@ -397,12 +397,12 @@ header {
 
   .me-about {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: .7fr 1fr;
     grid-template-areas: 
         "img title"
         "img subtitle"
         "img text";
-    grid-column-gap: 2em;
+    grid-column-gap: 5em;
 }
   
   .section__title--about {
@@ -479,6 +479,12 @@ a.btn {
 
 .portfolio-btn__item {
   margin: 0 2em 5em 2em;
+}
+
+.portfolio-item__divider {
+  width: 50vw;
+  margin-bottom: 3em;
+  opacity: .3;
 }
 
 /* footer */
