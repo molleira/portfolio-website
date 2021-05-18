@@ -284,7 +284,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-light);
+  background: var(--clr-dark);
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -442,6 +442,11 @@ header {
 
 .about-me__img {
   box-shadow: var(--bs);
+  border-radius: 5px;
+}
+
+.section__subtitle--about {
+  border-radius: 5px;
 }
 
 @media (min-width: 600px) {
