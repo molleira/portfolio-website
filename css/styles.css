@@ -368,6 +368,11 @@ header {
   margin-bottom: 3em;
 }
 
+.portfolio_item--case {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .portfolio_item--title {
   font-size: 2rem;
   margin: 1.35em 0;
