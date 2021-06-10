@@ -14,6 +14,8 @@ I have used *semantic* tagging and I have tried to make it *accessible* to as ma
 
 The stylesheet uses *variables* as well as the *BEM* (Block Element Modifier) system for naming classes. I have added *comments* to make it easy to understand and I have not used preprocessors, so you can edit the code directly.
 
+The project contains an *SVG* file that is animated using *keyframes*.
+
 Finally, the script uses a bit of *jQuery* but is easy to edit if you prefer to use vanilla javaScript.
 
 ### Development
