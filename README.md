@@ -1,6 +1,7 @@
-![portfolio-website](https://user-images.githubusercontent.com/71520089/121567175-91454e00-ca1e-11eb-9333-3697960ea946.gif)
-
 ## Portfolio Website
+
+![Demo](demo/demo.gif)
+
 As I have been learning to program I have realised that I needed to create a space that would allow me to gather the different projects I have been working on in order to show them in an appealing way.
 
 This project includes the files that make up the website I use as a portfolio. This page contains details of some of the featured projects I have worked on as well as personal and contact information.
