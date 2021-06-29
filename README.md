@@ -6,7 +6,7 @@ As I have been learning to program I have realised that I needed to create a spa
 
 This project includes the files that make up the website I use as a portfolio. This page contains details of some of the featured projects I have worked on as well as personal and contact information.
 
-Please click [in this link](https://www.marcoller.net/) to visit my portfolio website.
+Please click [this link](https://www.marcoller.net/) to visit my portfolio website.
 
 ### About
 The project has been created with **HTML** and **CSS** mainly, although I have also used some **JavasCript** to implement a better browsing experience.
